@@ -10,7 +10,7 @@ import reportWebVitals from "./reportWebVitals.ts";
 // Create a new router instance
 const router = createRouter({
 	routeTree,
-	basepath: "/site",
+	basepath: "/le-studyo",
 	context: {},
 	defaultPreload: "intent",
 	scrollRestoration: true,

@@ -10,7 +10,7 @@ export default defineConfig({
 	// Base URL pour GitHub Pages - à modifier selon votre repo
 	// Si le repo s'appelle "site", utilisez "/site/"
 	// Si c'est un repo username.github.io, utilisez "/"
-	base: "/site",
+	base: "/le-studyo",
 	plugins: [
 		tanstackRouter({
 			target: "react",
