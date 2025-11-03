@@ -5,58 +5,85 @@
 		"title": "AS MONACO VS NANTES - #Matchhday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
-			"title": "",
-			"subtitle": "",
-			"client": "",
-			"tactic": [],
-			"season": "",
-			"description": [],
+			"title": "#MATCHDAY_POSTER_ASM_FCN",
+			"subtitle": "Graphisme - #Matchday_Poster",
+			"client": "AS Monaco",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2024_2025",
+			"description": [
+				"Réalisation d'un visuel d'affiche de match pour l'AS Monaco, équipe de football évoluant en Ligue 1 McDonald's. Le visuel a était décliné pour les différents réseaux sociaux du club.",
+				"L'objectif de ce visuel est de promouvoir une rencontre de l'AS Monaco pour un match de championnat. Le thème de ce visuel est la bande dessiné. Il met en valeur les 2 jeunes joueurs de l'AS Monaco : Eliesse Ben Seghir et Mahgnes Akliouche."
+			],
 			"related_posts": []
 		}
 	},
 	{
 		"id": 1,
 		"image": "/projects/ASM_HAC.png",
-		"title": "AS MONACO VS HAVRE - #Matchhday_Poster",
+		"title": "LE HAVRE VS AS MONACO - #Matchhday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
-			"title": "",
-			"subtitle": "",
-			"client": "",
-			"tactic": [],
-			"season": "",
-			"description": [],
+			"title": "#MATCHDAY_POSTER_HAC_ASM",
+			"subtitle": "Graphisme - #Matchday_Poster",
+			"client": "AS Monaco",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2024_2025",
+			"description": [
+				"Réalisation d'un visuel d'affiche de match pour l'AS Monaco, équipe de football évoluant en Ligue 1 McDonald's. Le visuel a était décliné pour les différents réseaux sociaux du club.",
+				"L'objectif était de promouvoir la rencontre de Ligue 1 opposant le Havre AC à l'AS Monaco. Le concept s'appuie sur une mise en scène graphique intégrant les joueurs monégasques dans un décor inspiré de l'univers portuaire du Havre."
+			],
 			"related_posts": []
 		}
 	},
 	{
 		"id": 2,
 		"image": "/projects/ASM_RCL.png",
-		"title": "AS MONACO VS LENS - #Matchhday_Poster",
+		"title": "LENS VS AS MONACO - #Matchhday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
-			"title": "",
-			"subtitle": "",
-			"client": "",
-			"tactic": [],
-			"season": "",
-			"description": [],
+			"title": "#MATCHDAY_POSTER_RCL_ASM",
+			"subtitle": "Graphisme - #Matchday_Poster",
+			"client": "AS Monaco",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2024_2025",
+			"description": [
+				"Réalisation d'un visuel d'affiche de match pour l'AS Monaco, équipe de football évoluant en Ligue 1 McDonald's. Le visuel a était décliné pour les différents réseaux sociaux du club.",
+				"L'objectif était de promouvoir la rencontre de Ligue 1 opposant le RC Lens à l'AS Monaco. Le concept joue sur une composition dynamique mêlant les joueurs à des éléments architecturaux emblématiques de Lens."
+			],
 			"related_posts": []
 		}
 	},
 	{
 		"id": 3,
 		"image": "/projects/ASM_SB29.png",
-		"title": "AS MONACO VS BREST - #Matchhday_Poster",
+		"title": "BREST VS AS MONACO - #Matchhday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
-			"title": "",
-			"subtitle": "",
-			"client": "",
-			"tactic": [],
-			"season": "",
-			"description": [],
-			"related_posts": []
+			"title": "#MATCHDAY_POSTER_SB29_ASM",
+			"subtitle": "Graphisme - #Matchday_Poster",
+			"client": "AS Monaco",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2024_2025",
+			"description": [
+				"Réalisation d'un visuel d'affiche de match pour l'AS Monaco, équipe de football évoluant en Ligue 1 McDonald's. Le visuel a était décliné pour les différents réseaux sociaux du club.",
+				"L'objectif était de promouvoir la rencontre de Ligue 1 opposant l'AS Monaco au Stade Brestois le 5 avril 2025. Le concept s'inspire de l'univers maritime brestois, mettant en scène les joueurs monégasques dans un décor symbolique et impactant."
+			],
+			"related_posts": [
+				{
+					"id": 4.5,
+					"image": "/projects/ASM_SB29.png",
+					"title": "BREST VS AS MONACO - #Matchhday_Poster",
+					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
 		}
 	},
 	{
@@ -72,7 +99,7 @@
 			"season": "2024_2025",
 			"description": [
 				"Réalisation d'un visuel d'affiche de match pour l'AS Monaco, équipe de football évoluant en Ligue 1 McDonald's. Le visuel a était décliné pour les différents réseaux sociaux du club.",
-				"L'objectif de ce visuel est de promouvoir une rencontre de l'AS Monaco pour un match de championnat. Le thème de ce visuel est la bande dessiné. Il met en valeur les 2 jeunes joueurs de l'AS Monaco : Eliesse Ben Seghir et Mahgnes Akliouche."
+				"L'objectif était de promouvoir la rencontre de Ligue 1 opposant l'AS Monaco au Stade de Reims. Le concept s'inspire de l'univers des figurines de collection, mettant en valeur le capitaine monégasque Denis Zakaria d'une manière originale et impactante."
 			],
 			"related_posts": [
 				{
@@ -95,16 +122,34 @@
 	{
 		"id": 5,
 		"image": "/projects/ASM_TFC.png",
-		"title": "AS MONACO VS TOULOUSE - #Matchhday_Poster",
+		"title": "TOULOUSE VS AS MONACO - #Matchhday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
-			"title": "",
-			"subtitle": "",
-			"client": "",
-			"tactic": [],
-			"season": "",
-			"description": [],
-			"related_posts": []
+			"title": "#MATCHDAY_POSTER_TFC_ASM",
+			"subtitle": "Graphisme - #Matchday_Poster",
+			"client": "AS Monaco",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2024_2025",
+			"description": [
+				"Réalisation d'un visuel d'affiche de match pour l'AS Monaco, équipe de football évoluant en Ligue 1 McDonald's. Le visuel a était décliné pour les différents réseaux sociaux du club.",
+				"L'objectif était de promouvoir la rencontre de Ligue 1 opposant le Toulouse FC à l'AS Monaco. Le concept joue sur une composition dynamique mêlant les joueurs à des éléments architecturaux emblématiques de Toulouse."
+			],
+			"related_posts": [
+				{
+					"id": 4.5,
+					"image": "/projects",
+					"title": "TOULOUSE VS AS MONACO - #Matchhday_Poster",
+					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
 		}
 	}
 ]
