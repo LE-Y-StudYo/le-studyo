@@ -6,10 +6,11 @@ export default function ProjectsSelection({
 	excludeId,
 }: {
 	excludeId?: number;
-}) {
+	}) {
+	const reversedProjects = data
 	const projects = Number.isInteger(excludeId)
-		? data.filter((p) => p.id !== excludeId).slice(0, 4)
-		: data.slice(0, 4);
+		? reversedProjects.reverse().filter((p) => p.id !== excludeId).slice(0, 4)
+		: reversedProjects.reverse().slice(0, 4);
 	return (
 		<section
 			className="w-full bg-[#191919] py-6 sm:py-8 px-4 sm:px-8 md:px-16 lg:px-24 xl:pl-32 -mt-8"

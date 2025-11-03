@@ -29,6 +29,7 @@ export const Route = createFileRoute("/projets/")({
 });
 
 function RouteComponent() {
+	const reversedProjects = data
 	return (
 		<section
 			id="projets"
@@ -42,7 +43,7 @@ function RouteComponent() {
 				headingId="projets-heading"
 			/>
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-10 lg:gap-12 pb-12 sm:pb-16">
-				{data.reverse().map((project) => (
+				{reversedProjects.reverse().map((project) => (
 					<ProjectCard key={project.id} project={project} />
 				))}
 			</div>
