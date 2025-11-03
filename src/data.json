@@ -14,7 +14,22 @@
 				"Réalisation d'un visuel d'affiche de match pour l'AS Monaco, équipe de football évoluant en Ligue 1 McDonald's. Le visuel a était décliné pour les différents réseaux sociaux du club.",
 				"L'objectif de ce visuel est de promouvoir une rencontre de l'AS Monaco pour un match de championnat. Le thème de ce visuel est la bande dessiné. Il met en valeur les 2 jeunes joueurs de l'AS Monaco : Eliesse Ben Seghir et Mahgnes Akliouche."
 			],
-			"related_posts": []
+			"related_posts": [
+				{
+					"id": 4.5,
+					"image": "/projects/ASM_FCN_Post.png",
+					"title": "AS MONACO VS NANTES - #Matchhday_Poster",
+					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
 		}
 	},
 	{
@@ -32,7 +47,22 @@
 				"Réalisation d'un visuel d'affiche de match pour l'AS Monaco, équipe de football évoluant en Ligue 1 McDonald's. Le visuel a était décliné pour les différents réseaux sociaux du club.",
 				"L'objectif était de promouvoir la rencontre de Ligue 1 opposant le Havre AC à l'AS Monaco. Le concept s'appuie sur une mise en scène graphique intégrant les joueurs monégasques dans un décor inspiré de l'univers portuaire du Havre."
 			],
-			"related_posts": []
+			"related_posts": [
+				{
+					"id": 4.5,
+					"image": "/projects/HAC_ASM_Post.png",
+					"title": "LE HAVRE VS AS MONACO - #Matchhday_Poster",
+					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
 		}
 	},
 	{
@@ -50,7 +80,22 @@
 				"Réalisation d'un visuel d'affiche de match pour l'AS Monaco, équipe de football évoluant en Ligue 1 McDonald's. Le visuel a était décliné pour les différents réseaux sociaux du club.",
 				"L'objectif était de promouvoir la rencontre de Ligue 1 opposant le RC Lens à l'AS Monaco. Le concept joue sur une composition dynamique mêlant les joueurs à des éléments architecturaux emblématiques de Lens."
 			],
-			"related_posts": []
+			"related_posts": [
+				{
+					"id": 4.5,
+					"image": "/projects/RCL_ASM_Post.png",
+					"title": "LENS VS AS MONACO - #Matchhday_Poster",
+					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
 		}
 	},
 	{
@@ -71,7 +116,7 @@
 			"related_posts": [
 				{
 					"id": 4.5,
-					"image": "/projects/ASM_SB29.png",
+					"image": "/projects/SB29_ASM_Post.png",
 					"title": "BREST VS AS MONACO - #Matchhday_Poster",
 					"subtitle": "Graphisme - #Matchday_Poster",
 					"details": {
@@ -137,7 +182,7 @@
 			"related_posts": [
 				{
 					"id": 4.5,
-					"image": "/projects",
+					"image": "/projects/TFC_ASM_Post.png",
 					"title": "TOULOUSE VS AS MONACO - #Matchhday_Poster",
 					"subtitle": "Graphisme - #Matchday_Poster",
 					"details": {
