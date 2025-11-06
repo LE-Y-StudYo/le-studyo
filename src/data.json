@@ -2,7 +2,7 @@
 	{
 		"id": 0,
 		"image": "/projects/ASM_FCN.png",
-		"title": "AS MONACO VS NANTES - #Matchhday_Poster",
+		"title": "AS MONACO VS NANTES - #Matchday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
 			"title": "#MATCHDAY_POSTER_ASM_FCN",
@@ -16,9 +16,9 @@
 			],
 			"related_posts": [
 				{
-					"id": 4.5,
+					"id": 0.5,
 					"image": "/projects/ASM_FCN_Post.png",
-					"title": "AS MONACO VS NANTES - #Matchhday_Poster",
+					"title": "AS MONACO VS NANTES - #Matchday_Poster",
 					"subtitle": "Graphisme - #Matchday_Poster",
 					"details": {
 						"title": "",
@@ -35,7 +35,7 @@
 	{
 		"id": 1,
 		"image": "/projects/ASM_HAC.png",
-		"title": "LE HAVRE VS AS MONACO - #Matchhday_Poster",
+		"title": "LE HAVRE VS AS MONACO - #Matchday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
 			"title": "#MATCHDAY_POSTER_HAC_ASM",
@@ -49,9 +49,9 @@
 			],
 			"related_posts": [
 				{
-					"id": 4.5,
+					"id": 1.5,
 					"image": "/projects/HAC_ASM_Post.png",
-					"title": "LE HAVRE VS AS MONACO - #Matchhday_Poster",
+					"title": "LE HAVRE VS AS MONACO - #Matchday_Poster",
 					"subtitle": "Graphisme - #Matchday_Poster",
 					"details": {
 						"title": "",
@@ -68,7 +68,7 @@
 	{
 		"id": 2,
 		"image": "/projects/ASM_RCL.png",
-		"title": "LENS VS AS MONACO - #Matchhday_Poster",
+		"title": "LENS VS AS MONACO - #Matchday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
 			"title": "#MATCHDAY_POSTER_RCL_ASM",
@@ -82,9 +82,9 @@
 			],
 			"related_posts": [
 				{
-					"id": 4.5,
+					"id": 2.5,
 					"image": "/projects/RCL_ASM_Post.png",
-					"title": "LENS VS AS MONACO - #Matchhday_Poster",
+					"title": "LENS VS AS MONACO - #Matchday_Poster",
 					"subtitle": "Graphisme - #Matchday_Poster",
 					"details": {
 						"title": "",
@@ -101,7 +101,7 @@
 	{
 		"id": 3,
 		"image": "/projects/ASM_SB29.png",
-		"title": "BREST VS AS MONACO - #Matchhday_Poster",
+		"title": "BREST VS AS MONACO - #Matchday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
 			"title": "#MATCHDAY_POSTER_SB29_ASM",
@@ -115,9 +115,9 @@
 			],
 			"related_posts": [
 				{
-					"id": 4.5,
+					"id": 3.5,
 					"image": "/projects/SB29_ASM_Post.png",
-					"title": "BREST VS AS MONACO - #Matchhday_Poster",
+					"title": "BREST VS AS MONACO - #Matchday_Poster",
 					"subtitle": "Graphisme - #Matchday_Poster",
 					"details": {
 						"title": "",
@@ -134,7 +134,7 @@
 	{
 		"id": 4,
 		"image": "/projects/ASM_SDR.png",
-		"title": "AS MONACO VS REIMS - #Matchhday_Poster",
+		"title": "AS MONACO VS REIMS - #Matchday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
 			"title": "AS Monaco",
@@ -150,7 +150,7 @@
 				{
 					"id": 4.5,
 					"image": "/projects/ASM_SDR_Post.png",
-					"title": "AS MONACO VS REIMS - #Matchhday_Poster",
+					"title": "AS MONACO VS REIMS - #Matchday_Poster",
 					"subtitle": "Graphisme - #Matchday_Poster",
 					"details": {
 						"title": "",
@@ -167,7 +167,7 @@
 	{
 		"id": 5,
 		"image": "/projects/ASM_TFC.png",
-		"title": "TOULOUSE VS AS MONACO - #Matchhday_Poster",
+		"title": "TOULOUSE VS AS MONACO - #Matchday_Poster",
 		"subtitle": "Graphisme - #Matchday_Poster",
 		"details": {
 			"title": "#MATCHDAY_POSTER_TFC_ASM",
@@ -181,10 +181,274 @@
 			],
 			"related_posts": [
 				{
-					"id": 4.5,
+					"id": 5.5,
 					"image": "/projects/TFC_ASM_Post.png",
-					"title": "TOULOUSE VS AS MONACO - #Matchhday_Poster",
+					"title": "TOULOUSE VS AS MONACO - #Matchday_Poster",
 					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
+		}
+	},
+	{
+		"id": 6,
+		"image": "/projects/ASM_SINGO.png",
+		"title": "SINGO 50TH GAMES - #Player_Poster",
+		"subtitle": "Graphisme - #Player_Poster",
+		"details": {
+			"title": "#PLAYER_POSTER_ASM_SINGO50",
+			"subtitle": "Graphisme - #Player_Poster",
+			"client": "AS Monaco",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2024_2025",
+			"description": [
+				"Réalisation d'un visuel pour l'AS Monaco afin de célébrer Wilfried Singo à l'occasion de son 50ᵉ match avec le club. Le design a été conçu pour être décliné sur les réseaux sociaux du club afin de maintenir une communication cohérente et homogène.",
+				"L'objectif était de mettre en lumière cette étape importante du joueur grâce à une composition dynamique mêlant photos d'action et éléments graphiques. Le visuel, prévu pour une publication en février, n'a malheureusement pas été posté."
+			],
+			"related_posts": [
+				{
+					"id": 6.5,
+					"image": "/projects/ASM_SINGO_Post.png",
+					"title": "SINGO 50TH GAMES - #Player_Poster",
+					"subtitle": "Graphisme - #Player_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
+		}
+	},
+	{
+		"id": 7,
+		"image": "/projects/OM_PSG.png",
+		"title": "OM VS PSG - #Matchday_Poster",
+		"subtitle": "Graphisme - #Matchday_Poster",
+		"details": {
+			"title": "#MATCHDAY_POSTER_OM_PSG",
+			"subtitle": "Graphisme - #Matchday_Poster",
+			"client": "Projet Fictif",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2025_2026",
+			"description": [
+				"Réalisation fictive d'une affiche pour l'Olympique de Marseille, club évoluant en Ligue 1 Uber Eats. Le visuel a été pensé pour une diffusion sur les réseaux sociaux afin d'assurer une communication cohérente autour de l'événement.",
+				"L'objectif était de mettre en avant le Classique OM - PSG en mêlant Weah, Aubameyang et Balerdi à des éléments emblématiques de Marseille, avec un travail sur lumière et ambiance pour retranscrire tension et passion."
+			],
+			"related_posts": [
+				{
+					"id": 7.5,
+					"image": "/projects/OM_PSG_Post.png",
+					"title": "OM VS PSG - #Matchday_Poster",
+					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
+		}
+	},
+	{
+		"id": 8,
+		"image": "/projects/OM_AJAX.png",
+		"title": "OM VS AJAX - #Matchday_Poster",
+		"subtitle": "Graphisme - #Matchday_Poster",
+		"details": {
+			"title": "#MATCHDAY_POSTER_OM_AJAX",
+			"subtitle": "Graphisme - #Matchday_Poster",
+			"client": "Projet Fictif",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2025_2026",
+			"description": [
+				"Réalisation fictive d'une affiche pour l'Olympique de Marseille, club évoluant en Ligue 1 Uber Eats. Le visuel a été conçu pour une diffusion digitale autour de la Champions League, afin de valoriser la rencontre européenne et renforcer l'identité visuelle du club.",
+				"L'objectif était de mettre en avant l'affiche OM - Ajax à travers une composition graphique mêlant le joueur, les couleurs marseillaises et des textures patrimoniales, pour retranscrire l'intensité et le prestige d'un duel continental."
+			],
+			"related_posts": [
+				{
+					"id": 8.5,
+					"image": "/projects/OM_AJAX_Post.png",
+					"title": "OM VS AJAX - #Matchday_Poster",
+					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
+		}
+	},
+	{
+		"id": 9,
+		"image": "/projects/GP_Lego.png",
+		"title": "GP Explorer Lego Team - #Event_Poster",
+		"subtitle": "Graphisme - #Event_Poster",
+		"details": {
+			"title": "#EVENT_POSTER_GP_EXPLORER",
+			"subtitle": "Graphisme - #Event_Poster",
+			"client": "Projet Fictif",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2025",
+			"description": [
+				"Réalisation fictive d'une affiche pour la Lego Racing Team, engagée dans l'édition 2025 du GP Explorer. Le visuel a été conçu pour une diffusion digitale autour de l'événement, afin de valoriser l'équipe et de renforcer l'identité graphique de l'écurie.",
+				"L'objectif était de mettre en avant le duo de pilotes et leur monoplace à travers une composition mêlant photographie, univers mécanique et identité Lego. L'affiche retranscrit l'énergie de la compétition et l'aspect spectaculaire de cette “last race”"
+			],
+			"related_posts": [
+				{
+					"id": 9.5,
+					"image": "/projects/GP_Lego_Post.png",
+					"title": "GP Explorer Lego Team - #Event_Poster",
+					"subtitle": "Graphisme - #Event_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
+		}
+	},
+	{
+		"id": 10,
+		"image": "/projects/FRA_AZE.png",
+		"title": "FRANCE VS AZERBAÏDJAN - #Matchday_Poster",
+		"subtitle": "Graphisme - #Matchday_Poster",
+		"details": {
+			"title": "#MATCHDAY_POSTER_FRA_AZE",
+			"subtitle": "Graphisme - #Matchday_Poster",
+			"client": "Projet Fictif",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2025_2026",
+			"description": [
+				"Réalisation fictive d'une affiche pour l'Équipe de France, dans le cadre des éliminatoires de la Coupe du Monde 2026. Le visuel a été pensé pour une diffusion digitale avant le match France - Azerbaïdjan au Parc des Princes, afin de promouvoir la rencontre et d'illustrer la ferveur autour de la sélection nationale.",
+				"L'objectif était de créer une composition dynamique mettant en avant plusieurs cadres de l'équipe, tout en jouant sur les contrastes, la lumière pour renforcer la puissance et l'unité du collectif français."
+			],
+			"related_posts": [
+				{
+					"id": 10.5,
+					"image": "/projects/FRA_AZE_Post.png",
+					"title": "FRANCE VS AZERBAÏDJAN - #Matchday_Poster",
+					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
+		}
+	},
+	{
+		"id": 11,
+		"image": "/projects/LFC_MUFC.png",
+		"title": "LIVERPOOL FC VS MANCHESTER UNITED FC - #Matchday_Poster",
+		"subtitle": "Graphisme - #Matchday_Poster",
+		"details": {
+			"title": "#MATCHDAY_POSTER_LFC_MUFC",
+			"subtitle": "Graphisme - #Matchday_Poster",
+			"client": "Projet Fictif",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2025_2026",
+			"description": [
+				"Réalisation fictive d'une affiche pour la Premier League, inspirée du légendaire Derby of England opposant Liverpool à Manchester United. Le visuel s'appuie sur une composition miroir évoquant la dualité et la tension de cette rivalité historique.",
+				"L'objectif était de retranscrire toute la dramaturgie et la symbolique de ce choc emblématique du football anglais à travers un univers graphique cinématographique, mêlant photographie, textures sombres et lumières rougeoyantes pour souligner la puissance du moment."
+			],
+			"related_posts": [
+				{
+					"id": 11.5,
+					"image": "/projects/LFC_MUFC_Post.png",
+					"title": "LIVERPOOL FC VS MANCHESTER UNITED FC - #Matchday_Poster",
+					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
+		}
+	},
+	{
+		"id": 12,
+		"image": "/projects/SPORTING_OM.png",
+		"title": "SPORTING CP VS OM - #Matchday_Poster",
+		"subtitle": "Graphisme - #Matchday_Poster",
+		"details": {
+			"title": "#MATCHDAY_POSTER_SPORTING_OM",
+			"subtitle": "Graphisme - #Matchday_Poster",
+			"client": "Projet Fictif",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2025_2026",
+			"description": [
+				"Réalisation fictive d'une affiche pour l'Olympique de Marseille, club de Ligue 1 Uber Eats. Le visuel met en scène Benjamin Pavard dans un décor lisboète, imaginé pour une diffusion digitale autour de la Champions League.",
+				"L'objectif était de valoriser la rencontre OM - Sporting CP à travers une composition mêlant photo, collage et textures de voyage, pour refléter l'élégance et l'intensité d'un duel européen."
+			],
+			"related_posts": [
+				{
+					"id": 12.5,
+					"image": "/projects/SPORTING_OM_Post.png",
+					"title": "SPORTING CP VS OM - #Matchday_Poster",
+					"subtitle": "Graphisme - #Matchday_Poster",
+					"details": {
+						"title": "",
+						"subtitle": "",
+						"client": "",
+						"tactic": [],
+						"season": "",
+						"description": []
+					}
+				}
+			]
+		}
+	},
+	{
+		"id": 13,
+		"image": "/projects/Bodian_Massa.png",
+		"title": "BODIAN MASSA - #Player_Poster",
+		"subtitle": "Graphisme - #Player_Poster",
+		"details": {
+			"title": "#PLAYER_POSTER_BODIAN_MASSA",
+			"subtitle": "Graphisme - #Player_Poster",
+			"client": "Projet Fictif",
+			"tactic": ["graphisme", "design sportif"],
+			"season": "2025_2026",
+			"description": [
+				"Réalisation d'un visuel mettant à l'honneur Bodian Massa.",
+				"L'objectif était de valoriser le joueur à travers une composition percutante mêlant portraits, textures graphiques et typographies fortes, afin de transmettre toute l'intensité et la détermination de l'univers basket de l'ASVEL."
+			],
+			"related_posts": [
+				{
+					"id": 13.5,
+					"image": "/projects/Bodian_Massa_Post.png",
+					"title": "BODIAN MASSA - #Player_Poster",
+					"subtitle": "Graphisme - #Player_Poster",
 					"details": {
 						"title": "",
 						"subtitle": "",
