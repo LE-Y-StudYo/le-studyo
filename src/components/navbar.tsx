@@ -7,12 +7,19 @@ export default function Navbar() {
 	const router = useRouter();
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+	const toggleMenu = () => {
+		const newState = !isMenuOpen;
+		setIsMenuOpen(newState);
+		document.body.classList.toggle("overflow-hidden", newState);
+	};
+
 	const handleNavigateToSection = async (
 		e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>,
 		sectionId: string,
 	) => {
 		e.preventDefault();
-		setIsMenuOpen(false); // Ferme le menu mobile
+		setIsMenuOpen(false);
+		document.body.classList.remove("overflow-hidden");
 
 		const currentPath = window.location.pathname;
 
@@ -105,8 +112,8 @@ export default function Navbar() {
 						{/* Bouton burger (visible uniquement sur mobile) */}
 						<button
 							type="button"
-							onClick={() => setIsMenuOpen(!isMenuOpen)}
-							className="lg:hidden text-white p-2 focus:outline-none focus:ring-2 focus:ring-[#44FFDD] rounded"
+							onClick={toggleMenu}
+							className="lg:hidden text-white p-2"
 							aria-label={isMenuOpen ? "Fermer le menu" : "Ouvrir le menu"}
 							aria-expanded={isMenuOpen}
 						>
@@ -137,7 +144,10 @@ export default function Navbar() {
 						<li>
 							<Link
 								to="/projets"
-								onClick={() => setIsMenuOpen(false)}
+								onClick={() => {
+									setIsMenuOpen(false);
+									document.body.classList.remove("overflow-hidden");
+								}}
 								className="text-white/80 hover:text-white font-apotek-condensed transition-colors duration-200 text-3xl sm:text-4xl font-medium focus:outline-none focus:text-white focus:underline"
 								activeProps={{
 									className: "text-white",
@@ -159,7 +169,10 @@ export default function Navbar() {
 						<li>
 							<Link
 								to="/a-propos"
-								onClick={() => setIsMenuOpen(false)}
+								onClick={() => {
+									setIsMenuOpen(false);
+									document.body.classList.remove("overflow-hidden");
+								}}
 								className="text-white/80 hover:text-white font-apotek-condensed transition-colors duration-200 text-3xl sm:text-4xl font-medium focus:outline-none focus:text-white focus:underline"
 								activeProps={{
 									className: "text-white",
