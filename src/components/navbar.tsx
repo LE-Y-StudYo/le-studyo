@@ -1,14 +1,18 @@
 import { Link, useRouter } from "@tanstack/react-router";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
 import logo from "/logo.svg";
 
 export default function Navbar() {
 	const router = useRouter();
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const handleNavigateToSection = async (
 		e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>,
 		sectionId: string,
 	) => {
 		e.preventDefault();
+		setIsMenuOpen(false); // Ferme le menu mobile
 
 		const currentPath = window.location.pathname;
 
@@ -27,76 +31,155 @@ export default function Navbar() {
 	};
 
 	return (
-		<nav
-			className="fixed top-0 left-0 right-0 flex items-center z-50 bg-transparent font-apotek-condensed px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24"
-			aria-label="Navigation principale"
-		>
-			<div className="mx-auto px-4 sm:px-6 lg:px-8 w-full py-6 sm:py-8 md:py-10 pb-4 sm:pb-5 md:pb-6">
-				<div className="flex items-center justify-between min-h-12 sm:min-h-16">
-					<div className="shrink-0">
-						<Link
-							to="/"
-							className="block focus:outline-none rounded"
-							aria-label="Retour à l'accueil"
-						>
-							<img
-								src={logo}
-								alt="Le STUDYO"
-								width={50}
-								height={50}
-								className="w-10 h-10 sm:w-12 sm:h-12 md:w-[50px] md:h-[50px]"
-								loading="eager"
-							/>
-						</Link>
-					</div>
+		<>
+			<nav
+				className="fixed top-0 left-0 right-0 flex items-center z-50 bg-transparent font-apotek-condensed px-4 sm:px-8 md:px-12 lg:px-16 xl:px-24"
+				aria-label="Navigation principale"
+			>
+				<div className="mx-auto px-4 sm:px-6 lg:px-8 w-full py-6 sm:py-8 md:py-10 pb-4 sm:pb-5 md:pb-6">
+					<div className="flex items-center justify-between min-h-12 sm:min-h-16">
+						<div className="shrink-0">
+							<Link
+								to="/"
+								className="block focus:outline-none rounded"
+								aria-label="Retour à l'accueil"
+							>
+								<img
+									src={logo}
+									alt="Le STUDYO"
+									width={50}
+									height={50}
+									className="w-10 h-10 sm:w-12 sm:h-12 md:w-[50px] md:h-[50px]"
+									loading="eager"
+								/>
+							</Link>
+						</div>
 
-					<div className="flex items-center gap-3 sm:gap-4 md:gap-6 lg:gap-8">
-						<ul className="flex items-center gap-3 sm:gap-4 md:gap-6 lg:gap-8 uppercase">
-							<li>
-								<Link
-									to="/projets"
-									className="text-white/80 hover:text-white transition-colors duration-200 text-sm sm:text-base md:text-xl lg:text-2xl font-medium focus:outline-none focus:text-white focus:underline"
-									activeProps={{
-										className: "text-white",
-									}}
-								>
-									Projets
-								</Link>
-							</li>
-							<li>
-								<button
-									type="button"
-									onClick={(e) => handleNavigateToSection(e, "game-plan")}
-									className="text-white/80 uppercase hover:text-white transition-colors duration-200 text-sm sm:text-base md:text-xl lg:text-2xl font-medium focus:outline-none focus:text-white focus:underline cursor-pointer"
-									aria-label="Aller à la section services"
-								>
-									Services
-								</button>
-							</li>
-							<li>
-								<Link
-									to="/a-propos"
-									className="text-white/80 hover:text-white transition-colors duration-200 text-sm sm:text-base md:text-xl lg:text-2xl font-medium focus:outline-none focus:text-white focus:underline"
-									activeProps={{
-										className: "text-white",
-									}}
-								>
-									A propos
-								</Link>
-							</li>
-						</ul>
+						{/* Menu desktop (caché sur mobile) */}
+						<div className="hidden lg:flex items-center gap-3 sm:gap-4 md:gap-6 lg:gap-8">
+							<ul className="flex items-center gap-3 sm:gap-4 md:gap-6 lg:gap-8 uppercase">
+								<li>
+									<Link
+										to="/projets"
+										className="text-white/80 hover:text-white transition-colors duration-200 text-sm sm:text-base md:text-xl lg:text-2xl font-medium focus:outline-none focus:text-white focus:underline"
+										activeProps={{
+											className: "text-white",
+										}}
+									>
+										Projets
+									</Link>
+								</li>
+								<li>
+									<button
+										type="button"
+										onClick={(e) => handleNavigateToSection(e, "game-plan")}
+										className="text-white/80 uppercase hover:text-white transition-colors duration-200 text-sm sm:text-base md:text-xl lg:text-2xl font-medium focus:outline-none focus:text-white focus:underline cursor-pointer"
+										aria-label="Aller à la section services"
+									>
+										Services
+									</button>
+								</li>
+								<li>
+									<Link
+										to="/a-propos"
+										className="text-white/80 hover:text-white transition-colors duration-200 text-sm sm:text-base md:text-xl lg:text-2xl font-medium focus:outline-none focus:text-white focus:underline"
+										activeProps={{
+											className: "text-white",
+										}}
+									>
+										A propos
+									</Link>
+								</li>
+							</ul>
 
+							<button
+								type="button"
+								onClick={(e) => handleNavigateToSection(e, "kick-off")}
+								className="uppercase inline-flex items-center justify-center px-3 sm:px-4 md:px-6 py-1 bg-[#44FFDD] text-[#191919] border border-[#44FFDD] text-sm sm:text-base md:text-xl lg:text-2xl font-medium hover:bg-[#191919] hover:text-[#44FFDD] transition-colors duration-200 focus:outline-none "
+								aria-label="Aller à la section contact"
+							>
+								Contacter
+							</button>
+						</div>
+
+						{/* Bouton burger (visible uniquement sur mobile) */}
 						<button
 							type="button"
-							onClick={(e) => handleNavigateToSection(e, "kick-off")}
-							className="uppercase inline-flex items-center justify-center px-3 sm:px-4 md:px-6 py-1 bg-[#44FFDD] text-[#191919] border border-[#44FFDD] text-sm sm:text-base md:text-xl lg:text-2xl font-medium hover:bg-[#191919] hover:text-[#44FFDD] transition-colors duration-200 focus:outline-none "
-							aria-label="Aller à la section contact"
+							onClick={() => setIsMenuOpen(!isMenuOpen)}
+							className="lg:hidden text-white p-2 focus:outline-none focus:ring-2 focus:ring-[#44FFDD] rounded"
+							aria-label={isMenuOpen ? "Fermer le menu" : "Ouvrir le menu"}
+							aria-expanded={isMenuOpen}
 						>
-							Contacter
+							{isMenuOpen ? (
+								<X className="w-6 h-6 sm:w-8 sm:h-8" />
+							) : (
+								<Menu className="w-6 h-6 sm:w-8 sm:h-8" />
+							)}
 						</button>
 					</div>
 				</div>
+			</nav>
+
+			{/* Menu mobile (overlay) */}
+			<div
+				className={`fixed inset-0 bg-[#191919]/95 backdrop-blur-sm z-40 lg:hidden transition-all duration-300 ${
+					isMenuOpen
+						? "opacity-100 pointer-events-auto"
+						: "opacity-0 pointer-events-none"
+				}`}
+			>
+				<div
+					className={`flex flex-col items-center justify-center h-full gap-8 transition-transform duration-300 ${
+						isMenuOpen ? "translate-y-0" : "-translate-y-4"
+					}`}
+				>
+					<ul className="flex flex-col items-center gap-6 uppercase">
+						<li>
+							<Link
+								to="/projets"
+								onClick={() => setIsMenuOpen(false)}
+								className="text-white/80 hover:text-white font-apotek-condensed transition-colors duration-200 text-3xl sm:text-4xl font-medium focus:outline-none focus:text-white focus:underline"
+								activeProps={{
+									className: "text-white",
+								}}
+							>
+								Projets
+							</Link>
+						</li>
+						<li>
+							<button
+								type="button"
+								onClick={(e) => handleNavigateToSection(e, "game-plan")}
+								className="text-white/80 uppercase hover:text-white font-apotek-condensed transition-colors duration-200 text-3xl sm:text-4xl font-medium focus:outline-none focus:text-white focus:underline cursor-pointer"
+								aria-label="Aller à la section services"
+							>
+								Services
+							</button>
+						</li>
+						<li>
+							<Link
+								to="/a-propos"
+								onClick={() => setIsMenuOpen(false)}
+								className="text-white/80 hover:text-white font-apotek-condensed transition-colors duration-200 text-3xl sm:text-4xl font-medium focus:outline-none focus:text-white focus:underline"
+								activeProps={{
+									className: "text-white",
+								}}
+							>
+								A propos
+							</Link>
+						</li>
+					</ul>
+
+					<button
+						type="button"
+						onClick={(e) => handleNavigateToSection(e, "kick-off")}
+						className="uppercase inline-flex items-center justify-center font-apotek-condensed px-8 py-3 bg-[#44FFDD] text-[#191919] border border-[#44FFDD] text-2xl sm:text-3xl font-medium hover:bg-[#191919] hover:text-[#44FFDD] transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-[#44FFDD]"
+						aria-label="Aller à la section contact"
+					>
+						Contacter
+					</button>
+				</div>
 			</div>
-		</nav>
+		</>
 	);
 }

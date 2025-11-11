@@ -29,7 +29,7 @@ export const Route = createFileRoute("/projets/")({
 });
 
 function RouteComponent() {
-	const reversedProjects = data
+	const reversedProjects = data;
 	return (
 		<section
 			id="projets"
